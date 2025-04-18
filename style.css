@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #e60909;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #8edef7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Tema claro */
+body.claro {
+    background-color: #f5eeeefa;
+    color: #ec0f0f;
+}
+body.claro form {
+    background-color: #f4f4f4;
+}
+body.claro input {
+    background-color: #faf7f7;
+    color: #131212;
+}
+body.claro select, body.claro button {
+    background-color: #fff;
+    color: #000;
+    border-color: #8edef7;
+}
+
+/* Tema oscuro */
+body.oscuro {
+    background-color: #000000;
+    color: #fff;
+}
+body.oscuro form {
+    background-color: #36353a;
+    border: 2px solid #fdf8f8;
+    border-radius: 8px;
+
+}
+body.oscuro input, select, button {
+    background-color: #0d0e0d;
+    color: #fff;
+}
+/* ALTO CONTRASTE */
+body.contraste {
+    background-color: #23f123;
+    color: #f72c2c;
+}
+body.contraste form {
+    background-color: #e6f334;
+    border: 2px solid #fdf8f8;
+    border-radius: 8px;
+
+}
+body.contraste input, select, button {
+    background-color: #0e0d0e;
+    color: #fff;
+}
