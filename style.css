@@ -11,6 +11,13 @@ form {
     border: 2px solid #e60909;
     border-radius: 8px;
 }
+
+style
+    .short-input {
+        width: 300px;
+    }
+
+
 label {
     display: block;
     margin-top: 10px;
