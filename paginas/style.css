@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px; /* Ajuste para que el contenido no quede solapado con el navbar fijo */
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 1050;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+}
+
+/* Ajuste del botón del menú */
+#btnMenu {
+    background-color: transparent !important;
+    width: auto !important;
+    padding: 5px !important;
+}
+
+/* Estilos del formulario */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #e60909;
+    border-radius: 8px;
+}
+
+/* Inputs y botones */
+input, select, form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Temas */
+body.claro {
+    
+        background-image: url('../imagenes/H.jpg'); /* Ruta si la imagen está en la carpeta img */
+        background-size: cover; /* Ajusta la imagen al tamaño completo */
+        background-position: center; /* Centra la imagen */
+        background-attachment: fixed; /* Mantiene la imagen estática */
+}
+    
+    /* FONDO DEL CUADRO DE FORMULARIO*/
+body.claro .cuadro-formu {
+    background-color: #f0dadead; /* Gris claro */
+    color: #333; /* Texto oscuro para buen contraste */
+    padding: 10px;
+    border-radius: 20px; /* Bordes suaves */
+}
+
+
+
+
+
+/* Tema oscuro */
+body.oscuro form {
+    background-color: #36353a;
+    border: 2px solid #fdf8f8;
+    border-radius: 8px;
+    color: #fff; /* Cambia el color del texto dentro del formulario */
+}
+
+
+body.oscuro input::placeholder {
+    color: #ddd; /* Hace que los placeholders sean más visibles en modo oscuro */
+}
+
+body.oscuro {
+    background-image: url('../imagenes/H.jpg'); /* Ruta si la imagen está en la carpeta img */
+        background-size: cover; /* Ajusta la imagen al tamaño completo */
+        background-position: center; /* Centra la imagen */
+        background-attachment: fixed; /* Mantiene la imagen estática */
+   
+}
+
+body.oscuro input, select, button {
+    background-color: #f0f0e9;
+    color: #fff;
+}
+
+body.oscuro .cuadro-formu {
+   
+        background-color: #131112ad; /* Gris claro */
+        color: #cc1d1d; /* Texto oscuro para buen contraste */
+        padding: 10px;
+        border-radius: 20px; /* Bordes suaves */
+    
+}
+#carouselExampleDark {
+    max-width: 600px;
+    margin: auto;
+}
+body {
+    
+    background-image: url('H.jpg'); /* Ruta si la imagen está en la carpeta img */
+    background-size: cover; /* Ajusta la imagen al tamaño completo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Mantiene la imagen estática */
+}
+/*imagenes de paginas*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left; /* Centra las tarjetas */
+    gap: 0 px; /* Espacio entre tarjetas */
+}
+

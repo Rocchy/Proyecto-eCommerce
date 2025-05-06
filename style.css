@@ -4,6 +4,35 @@ body {
     padding: 20px;
     margin: 0;
 }
+body {
+    
+    background-image: url('H.jpg'); /* Ruta si la imagen está en la carpeta img */
+    background-size: cover; /* Ajusta la imagen al tamaño completo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Mantiene la imagen estática */
+}
+/*inicio de menu detalles agregados*/
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+}
+header {
+    height: 80px; /* Tamaño normal en escritorio */
+    position: fixed;
+    width: 50%;
+    z-index: 200; /* Asegura que no tape otros elementos */
+}
+
+/* Ajustar para dispositivos más pequeños */
+
+
+.card-img-top {
+    width: 100%; 
+    height: auto; /* Evita que se reduzcan demasiado en móvil */
+    object-fit: cover; /* Mantiene proporciones */
+}
+
+/* fin  */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -36,6 +65,7 @@ button {
     cursor: pointer;
 }
 
+
 /* Tema claro */
 body.claro {
     background-color: #f5eeeefa;
@@ -44,6 +74,7 @@ body.claro {
 body.claro form {
     background-color: #f4f4f4;
 }
+
 body.claro input {
     background-color: #faf7f7;
     color: #131212;
@@ -80,7 +111,145 @@ body.contraste form {
     border-radius: 8px;
 
 }
+
+
 body.contraste input, select, button {
     background-color: #0e0d0e;
     color: #fff;
+}
+#carouselExampleDark {
+    max-width: 600px;
+    margin: auto;
+}
+  /*del otro style */
+  /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px; /* Ajuste para que el contenido no quede solapado con el navbar fijo */
+}
+
+/* Navbar */
+.navbar {
+    z-index: 1050;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+}
+
+/* Ajuste del botón del menú */
+#btnMenu {
+    background-color: transparent !important;
+    width: auto !important;
+    padding: 5px !important;
+}
+
+/* Estilos del formulario */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #e60909;
+    border-radius: 8px;
+}
+
+/* Inputs y botones */
+input, select, form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Temas */
+body.claro {
+    
+        background-image: url('../H.jpg'); /* Ruta si la imagen está en la carpeta img */
+        background-size: cover; /* Ajusta la imagen al tamaño completo */
+        background-position: center; /* Centra la imagen */
+        background-attachment: fixed; /* Mantiene la imagen estática */
+}
+    
+    /* FONDO DEL CUADRO DE FORMULARIO*/
+body.claro .cuadro-formu {
+    background-color: #f0dadead; /* Gris claro */
+    color: #333; /* Texto oscuro para buen contraste */
+    padding: 10px;
+    border-radius: 20px; /* Bordes suaves */
+}
+
+
+
+
+
+/* Tema oscuro */
+body.oscuro form {
+    background-color: #36353a;
+    border: 2px solid #fdf8f8;
+    border-radius: 8px;
+    color: #fff; /* Cambia el color del texto dentro del formulario */
+}
+
+
+body.oscuro input::placeholder {
+    color: #ddd; /* Hace que los placeholders sean más visibles en modo oscuro */
+}
+
+body.oscuro {
+    background-image: url('../pizzas.jpg.png'); /* Ruta si la imagen está en la carpeta img */
+        background-size: cover; /* Ajusta la imagen al tamaño completo */
+        background-position: center; /* Centra la imagen */
+        background-attachment: fixed; /* Mantiene la imagen estática */
+   
+}
+
+body.oscuro input, select, button {
+    background-color: #f0f0e9;
+    color: #fff;
+}
+
+body.oscuro .cuadro-formu {
+   
+        background-color: #131112ad; /* Gris claro */
+        color: #cc1d1d; /* Texto oscuro para buen contraste */
+        padding: 10px;
+        border-radius: 20px; /* Bordes suaves */
+    
+}
+#carouselExampleDark {
+    max-width: 600px;
+    margin: auto;
+}
+body {
+    
+    background-image: url('imagenes/H.jpg'); /* Ruta si la imagen está en la carpeta img */
+    background-size: cover; /* Ajusta la imagen al tamaño completo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Mantiene la imagen estática */
+}
+footer{
+    width: 100%;
+    clear: both;
+    padding: 3px;
+    background-color: #20201f82;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+
+}
+
+.pagina-menu footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.imagenMp >  a {
+    display: grid;
+    margin: auto;
+    place-items: left; /* Centra tanto horizontal como verticalmente */
+    margin-bottom: 1em;
+    width: 50%;
 }
